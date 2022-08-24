@@ -10,6 +10,74 @@ img {
   width: 100%;
 }
 
+header {
+  background-color: #515151;
+  padding: 10px;
+  margin: 10 px auto;
+  text-align: center;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  position: fixed;
+  width: 100%;
+}
+
+main {
+  padding-top: 133px;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+nav > ul > li > a:active {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #22AAA1;
+}
+
+nav > ul > li > a:visited {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #B9D1BA;
+}
+
+nav > ul > li > a:hover {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+#hero {
+  background-color: #515151;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
 body {
   background-color: #013702;
   font-family: 'Montserrat Alternates', sans-serif;
@@ -77,4 +145,18 @@ a:active { /* selected link */
 .button:active {
   opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+.center {
+  text-align: center;
 }

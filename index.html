@@ -6,20 +6,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
-    <body id="home-page">
     <meta charset="utf-8">
     <title>Mikaela Neal, UX Designer</title>
     <meta name="author" content="Mikaela Neal">
     <meta name="description" content="Mikaela Neal UX Designer Home Page">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-  <body>
+
+  <body id="home-page">
 
     <header>
-      <div>
-        <img src="https://via.placeholder.com/150x50?text=Logo" alt="Your Name">
+      <div class="container">
+        <img class="logo" src="https://via.placeholder.com/150x50?text=Logo" alt="Your Name">
           <nav>
-            <ul>
+            <ul class="navigation">
               <li><a href="index.html">Work</a></li>
               <li><a href="about.html">About</a></li>
               <li><a href="#contact">Contact</a></li>
@@ -29,8 +29,8 @@
     </header>
 
 <main> <!--the main content of the page-->
-    <div> <!--open hero section-->
-      <div> <!--open wrapper for hero section-->
+    <div id="hero"> <!--open hero section-->
+      <div class="container"> <!--open wrapper for hero section-->
         <h1> <!--header for hero section-->
           Hi! I'm Mikaela.
         </h1>
@@ -43,12 +43,12 @@
       </div> <!--close wrapper for hero section-->
     </div> <!--close hero section-->
 
-    <div> <!--open work/project section-->
-      <div> <!--open wrapper for work/project section-->
-        <h2> <!--heading for work/projecsts section-->
+    <div id="work"> <!--open work/project section-->
+      <div class="container"> <!--open wrapper for work/project section-->
+        <h2 class="center"> <!--heading for work/projecsts section-->
           PlutoPay
         </h2>
-        <div> <!--open columns for work/projects section to have 2 columns-->
+        <div class="row"> <!--open columns for work/projects section to have 2 columns-->
           <div> <!--open column 1-->
             <picture>
               <source srcset="img/plutopay/thumbnailsmall.png" media="(max-width:767px)"> <!--img for smaller screens-->
@@ -70,14 +70,14 @@
   </main> <!--close main content section-->
 
     <footer id="contact">
-      <div> <!--open wrapper for footer-->
-        <h2>
+      <div class="container"> <!--open wrapper for footer-->
+        <h2 class="center">
           Get in Touch
         </h2>
         <p>
           Like my work or want to know more? Let's chat! Send me a message on LinkedIn <a href="https://www.linkedin.com/in/mikaela-neal/" target="_blank">here</a>. Prefer emailing instead?
         </p>
-        <div> <!--email button-->
+        <div class="center"> <!--email button-->
           <a href="mailto:mikaelaux@gmail.com" class="button">Email me</a>
         </div> <!--close email button-->
         <div> <!--social media layout and placeholders-->
