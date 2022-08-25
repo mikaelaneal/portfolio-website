@@ -157,6 +157,7 @@ footer {
   padding: 10px;
   margin: 10 px auto;
   width: 100%;
+  text-align: center;
 }
 
 /* Layout styling */
@@ -167,17 +168,6 @@ footer {
 
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-[class*="col-"] {
-  float: left;
-  padding: 10px;
 }
 
 .center {
@@ -210,6 +200,17 @@ footer {
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
 }
 
 /* ==============================
