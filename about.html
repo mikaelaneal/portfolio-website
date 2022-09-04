@@ -11,20 +11,24 @@
     <meta name="author" content="Mikaela Neal">
     <meta name="description" content="Mikaela Neal UX Designer About Page">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <i class="fa-solid fa-bars"></i>
   </head>
 
   <body id="about-page">
 
     <header>
       <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
         <img class="logo" src="img/templogo.png" alt="Mikaela Neal">
           <nav>
             <ul class="navigation">
               <li><a href="index.html">Work</a></li>
               <li><a href="about.html">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+              <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
             </ul>
           </nav>
+        </div>
       </div>
     </header>
 
@@ -100,6 +104,7 @@
   </div> <!--close wrapper for footer-->
 </footer>
 
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
 
 </body>

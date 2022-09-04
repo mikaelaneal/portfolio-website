@@ -16,9 +16,8 @@ img {
 
 header {
   background-color: #013702;
-  padding: 10px;
+  padding: 10px 0 4px;
   margin: 10 px auto;
-  text-align: center;
   -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.75);
@@ -27,17 +26,15 @@ header {
 }
 
 main {
-  padding-top: 133px;
+  padding-top: 56px;
 }
 
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
-nav > ul > li {
-  display: inline-block;
-}
 
 nav > ul > li > a {
   padding: 0 15px;
@@ -67,8 +64,41 @@ nav > ul > li > a:hover {
   opacity: 0.8;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 
 #hero {
@@ -152,6 +182,11 @@ a:active { /* selected link */
   text-decoration: none;
 }
 
+.icon {
+  display: inline-block;
+  width: 50px;
+}
+
 footer {
   background-color: #515151;
   padding: 10px;
@@ -228,6 +263,22 @@ Medium devices (640px and larger)
     margin-top: 4px;
   }
 
+  nav > ul {
+  margin: 1em 0;
+}
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
+
   body {
     font-size: 18px; /* Sets the font size to 18px */
   }
@@ -245,6 +296,28 @@ Large devices (1024px or larger)
   body {
     font-size: 18px; /* Sets the font size to 18px */
   }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  nav > ul {
+  margin: 1em 0;
+}
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.navtoggle li:last-child {
+  display: none;
+}
 
   .col-lg-7 {
   width: 60%;
