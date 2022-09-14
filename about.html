@@ -1,111 +1,159 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
-    <meta charset="utf-8">
-    <title>About Mikaela Neal</title>
-    <meta name="author" content="Mikaela Neal">
-    <meta name="description" content="Mikaela Neal UX Designer About Page">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/bfd2d3da4e.js" crossorigin="anonymous"></script>
-  </head>
 
-  <body id="about-page">
+<head>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>About Mikaela Neal</title>
+  <meta name="author" content="Mikaela Neal">
+  <meta name="description" content="Mikaela Neal UX Designer About Page">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/bfd2d3da4e.js" crossorigin="anonymous"></script>
+</head>
 
-    <header>
-      <div class="container">
-        <div class="navtoggle" id="myNavtoggle">
-        <img class="logo" src="img/templogo.png" alt="Mikaela Neal">
-          <nav>
-            <ul class="navigation">
-              <li><a href="index.html">Work</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
-              <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
+<body id="about-page">
 
-<main> <!--the main content of the page-->
-  <div id="about"> <!--header-->
+  <header>
     <div class="container">
-      <h1>About Me</h1>
+      <div class="navtoggle" id="myNavtoggle">
+        <img class="logo" src="img/templogo.png" alt="Mikaela Neal">
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-  </div>
-  <div class="container"> <!--main content-->
-    <picture> <!--profile picture-->
-      <source srcset="img/ProfilePic.jpg" media="(max-width:767px)"> <!--img for smaller screens-->
-      <img src="img/ProfilePic.jpg" alt="Woman with blonde and green hair smiling"> <!--img for larger screens-->
-    </picture>
-    <div class="row"> <!--container for columns-->
-      <div> <!--column:story-->
-        <h2>My Story</h2>
-        <p>
-          Hi, I'm Mikaela. I'm a UX designer with a background in academic research, located in Houston. I am passionate about studying human behaviors and attitudes and designing engaging and intuitive experiences that suit the wants and needs of my users.
-        <br>
-         I hold a Bachelors of Science in biomedical science and a specialization in cognitive studies that prepared me to pursue academic neuroscience research after graduation. This experience allowed me to develop the ability to design research questions relevant to the needs of the lab, while also helping me gain an eye for effectively presenting results to various audiences. In this role, I managed multiple projects without losing sight of the primary goals of my research, allowing me to learn how to balance the needs of my projects with the comprehensive needs of the lab. This skill transfers to my work in UX design--I am able to strategically balance user needs with business needs, allowing me to create practical products that provide an engaging and intuitive experience for my users.
-        <br>
-         I have experience in completing UX design projects from the initial research phase to the development of high-fidelity prototypes. I pride myself on my ability to merge strategical thinking with user-centric focus to develop UX projects that suit both my clients and their users.
-       </p>
-       <a href="files/MikaelaNealCV.pdf" target="_blank" class="button">Download My Resume</a>
-     </div>
-     <div> <!--column:skills and tools-->
-       <h2>Skills and Tools</h2>
-       <div> <!--container for skills and tools columns-->
-         <div class="col-md-6 col-lg-8 col-xl-4"> <!--column:relevant skills-->
-           <h3>Relevant Skills</h3>
-           <ul>
-             <li>User Research</li>
-             <li>Persona Creation</li>
-             <li>Journey Mapping</li>
-             <li>User Flows</li>
-             <li>Usability Testing</li>
-             <li>Wireframing</li>
-             <li>Prototype Development and Iteration</li>
-           </ul>
-         </div> <!--close column:relevant skills-->
-         <div class="col-md-6 col-lg-8 col-xl-4"> <!--column:tools-->
-           <h3>Tools</h3>
-           <ul>
-             <li>Figma</li>
-             <li>Adobe XD</li>
-             <li>JMarvel</li>
-           </ul>
-         </div> <!--close column:tools-->
-       </div> <!--close container for skills and tools columns-->
-     </div> <!--close column:skills and tools-->
-   </div> <!--close container for columns-->
- </div> <!--close main content-->
-</main> <!--close main content section-->
+  </header>
 
-<footer id="contact">
-  <div class="container"> <!--open wrapper for footer-->
-    <h2 class="center">
-      Get in Touch
-    </h2>
-    <p>
-      Like my work or want to know more? Let's chat! Send me a message on LinkedIn <a href="https://www.linkedin.com/in/mikaela-neal/" target="_blank">here</a>. Prefer emailing instead?
-    </p>
-    <div class="center"> <!--email button-->
-      <a href="mailto:mikaelaux@gmail.com" class="button">Email me</a>
-    </div> <!--close email button-->
-    <div class="center"> <!--social media layout and placeholders-->
-      <a href="https://www.linkedin.com/in/mikaela-neal/" target="_blank"> <svg enable-background="new 0 0 32 32" height="32px" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z" fill="#007BB5"/><g><rect fill="#FFFFFF" height="14" width="4" x="7" y="11"/><path d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7    C25,14,24.479,11,20.499,11z" fill="#FFFFFF"/><circle cx="9" cy="8" fill="#FFFFFF" r="2"/></g></g><g/><g/><g/><g/><g/><g/></svg>
-      </a>
+  <main>
+    <!--the main content of the page-->
+    <div id="about">
+      <!--header-->
+      <div class="container">
+        <h1>About Me</h1>
+      </div>
+    </div>
+    <div class="container">
+      <!--main content-->
+      <picture>
+        <!--profile picture-->
+        <source srcset="img/ProfilePic.jpg" media="(max-width:767px)">
+        <!--img for smaller screens-->
+        <img src="img/ProfilePic.jpg" alt="Woman with blonde and green hair smiling">
+        <!--img for larger screens-->
+      </picture>
+      <div class="row">
+        <!--container for columns-->
+        <div>
+          <!--column:story-->
+          <h2>My Story</h2>
+          <p>
+            Hi, I'm Mikaela. I'm a UX designer with a background in academic research, located in Houston. I am passionate about studying human behaviors and attitudes and designing engaging and intuitive experiences that suit the wants and needs of
+            my users.
+            <br>
+            I hold a Bachelors of Science in biomedical science and a specialization in cognitive studies that prepared me to pursue academic neuroscience research after graduation. This experience allowed me to develop the ability to design research
+            questions relevant to the needs of the lab, while also helping me gain an eye for effectively presenting results to various audiences. In this role, I managed multiple projects without losing sight of the primary goals of my research,
+            allowing me to learn how to balance the needs of my projects with the comprehensive needs of the lab. This skill transfers to my work in UX design--I am able to strategically balance user needs with business needs, allowing me to create
+            practical products that provide an engaging and intuitive experience for my users.
+            <br>
+            I have experience in completing UX design projects from the initial research phase to the development of high-fidelity prototypes. I pride myself on my ability to merge strategical thinking with user-centric focus to develop UX projects
+            that suit both my clients and their users.
+          </p>
+          <a href="files/MikaelaNealCV.pdf" target="_blank" class="button">Download My Resume</a>
+        </div>
+        <div>
+          <!--column:skills and tools-->
+          <h2>Skills and Tools</h2>
+          <div>
+            <!--container for skills and tools columns-->
+            <div class="col-md-6 col-lg-8 col-xl-4">
+              <!--column:relevant skills-->
+              <h3>Relevant Skills</h3>
+              <ul>
+                <li>User Research</li>
+                <li>Persona Creation</li>
+                <li>Journey Mapping</li>
+                <li>User Flows</li>
+                <li>Usability Testing</li>
+                <li>Wireframing</li>
+                <li>Prototype Development and Iteration</li>
+              </ul>
+            </div>
+            <!--close column:relevant skills-->
+            <div class="col-md-6 col-lg-8 col-xl-4">
+              <!--column:tools-->
+              <h3>Tools</h3>
+              <ul>
+                <li>Figma</li>
+                <li>Adobe XD</li>
+                <li>JMarvel</li>
+              </ul>
+            </div>
+            <!--close column:tools-->
+          </div>
+          <!--close container for skills and tools columns-->
+        </div>
+        <!--close column:skills and tools-->
+      </div>
+      <!--close container for columns-->
+    </div>
+    <!--close main content-->
+  </main>
+  <!--close main content section-->
+
+  <footer id="contact">
+    <div class="container">
+      <!--open wrapper for footer-->
+      <h2 class="center">
+        Get in Touch
+      </h2>
+      <p>
+        Like my work or want to know more? Let's chat! Send me a message on LinkedIn <a href="https://www.linkedin.com/in/mikaela-neal/" target="_blank">here</a>. Prefer emailing instead?
+      </p>
+      <div class="center">
+        <!--email button-->
+        <a href="mailto:mikaelaux@gmail.com" class="button">Email me</a>
+      </div>
+      <!--close email button-->
+      <div class="center">
+        <!--social media layout and placeholders-->
+        <a href="https://www.linkedin.com/in/mikaela-neal/" target="_blank"> <svg enable-background="new 0 0 32 32" height="32px" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g>
+              <path d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z" fill="#007BB5" />
+              <g>
+                <rect fill="#FFFFFF" height="14" width="4" x="7" y="11" />
+                <path d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7    C25,14,24.479,11,20.499,11z" fill="#FFFFFF" />
+                <circle cx="9" cy="8" fill="#FFFFFF" r="2" />
+              </g>
+            </g>
+            <g />
+            <g />
+            <g />
+            <g />
+            <g />
+            <g />
+          </svg>
+        </a>
         <p>Copyright Mikaela Neal 2022</p>
-      </div> <!--close copyright section-->
-    </div> <!--close social media layout and placeholders-->
-  </div> <!--close wrapper for footer-->
-</footer>
+      </div>
+      <!--close copyright section-->
+    </div>
+    <!--close social media layout and placeholders-->
+    <!--close wrapper for footer-->
+  </footer>
 
-<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-<script src="js/scripts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 
 </body>
+
 </html>

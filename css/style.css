@@ -154,12 +154,12 @@ a:visited { /* visited link */
 
 a:hover,
 a:focus {
-  color: #22aaa1;
+  color: #3CD8CE;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 
 a:active { /* selected link */
-  color: #22AAA1;
+  color: #3CD8CE;
 }
 
 .button {
@@ -258,6 +258,14 @@ Medium devices (640px and larger)
     padding: 50px 0 13px;
   }
 
+  main {
+    padding-top: 150px;
+  }
+
+  #hero {
+    padding: 50px 0;
+  }
+
   nav {
     width: auto;
     float: right;
@@ -296,6 +304,14 @@ Large devices (1024px or larger)
 @media only screen and (min-width: 1024px) {
   body {
     font-size: 18px; /* Sets the font size to 18px */
+  }
+
+  main {
+    padding-top: 150px;
+  }
+
+  #hero {
+    padding: 50px 0;
   }
 
   nav {
